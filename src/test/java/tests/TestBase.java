@@ -8,5 +8,8 @@ public class TestBase {
     static void setUp() {
         // choose the browser and size
         Configuration.startMaximized = true;
+        System.out.println("commit 1");
+        System.out.println("commit 2");
+        System.out.println("commit 3");
     }
 }
